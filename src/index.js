@@ -5,10 +5,13 @@ import App from './components/App'
 import Inventory from './components/Inventory'
 
 const routing = (
-    <Router>
-        <Route exact path="/" component={Inventory} />
-        <Route path="/inventory" component={Inventory} />
-    </Router>
+    <div>
+        <Router>
+            <Route exact path="/" component={Inventory} />
+            <Route path="/inventory" component={Inventory} />
+        </Router>
+    </div>
+   
 )
 
 ReactDOM.render(routing, document.querySelector("#root"))
