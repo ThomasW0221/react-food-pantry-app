@@ -40,7 +40,6 @@ class InventoryForm extends React.Component {
                     <div className="row justify-content-center">
                         <button type="submit" className="btn btn-primary mb-2">Submit</button>
                     </div>
-                    
                 </form>
             </div>
            
